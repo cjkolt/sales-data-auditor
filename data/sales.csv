@@ -1,0 +1,121 @@
+order_id,customer_id,order_date,product,category,quantity,unit_price,region
+ORD-1001,C009,2026-06-10,Work Gloves,Safety,6,14.68,Winnipeg
+ORD-1002,C035,2026-01-19,2x4 Lumber,Materials,4,8.38,Portage la Prairie
+ORD-1003,C007,2026-03-27,Concrete Mix,Materials,3,13.55,Portage la Prairie
+ORD-1004,C015,2026-04-20,Interior Paint,Finishing,6,55.95,Portage la Prairie
+ORD-1005,C005,2026-08-03,Concrete Mix,Materials,1,13.21,Winnipeg
+ORD-1006,C033,2026-07-29,2x4 Lumber,materials,6,8.28,Brandon
+ORD-1007,C016,2026-01-10,2x4 Lumber,Materials,4,7.26,Winnipeg
+ORD-1008,C021,2026-06-19,Cordless Drill,Tools,5,133.34,
+ORD-1009,C008,2026-06-09,Tape Measure,Tools,8,20.01,Brandon
+ORD-1010,C034,2026-04-05,Concrete Mix,Materials,6,13.73,Steinbach
+ORD-1011,C025,05/02/2026,Drywall Sheet,Materials,2,15.21,Brandon
+ORD-1012,C003,2026-05-02,Work Gloves,Safety,7,14.67,Brandon
+ORD-1013,C017,2026-02-03,Circular Saw,Tools,5,188.09,Winnipeg
+ORD-1014,C021,2026-04-22,Paint Roller,Finishing,3,,Steinbach
+ORD-1015,C032,2026-06-23,Cordless Drill,Tools,7,125.6,Portage la Prairie
+ORD-1016,C001,2026-04-18,Drywall Sheet,Materials,2,15.91,Portage la Prairie
+ORD-1017,C001,20-05-2026,Drywall Sheet,Materials,4,17.44,Steinbach
+ORD-1018,C003,2026-05-10,Tape Measure,Tools,6,17.57,Winnipeg
+ORD-1019,C019,2026-01-20,Work Gloves,SAFETY,1,13.94,Portage la Prairie
+ORD-1020,C018,2026-05-20,Drywall Sheet,Materials,7,17.19,Winnipeg
+ORD-1021,C011,2026-08-14,Safety Glasses,Safety,3,10.7,Steinbach
+ORD-1022,C027,06/22/2026,Safety Glasses,Safety,2,11.04,Steinbach
+ORD-1023,C030,2026-03-22,Concrete Mix,Materials,8,12.13,Steinbach
+ORD-1024,C013,2026-01-28,Safety Glasses,Safety,5,11.27,Steinbach
+ORD-1025,C006,2026-01-28,Cordless Drill,Tools,7,124.04,Winnipeg
+ORD-1026,C016,2026-02-13,Caulking Gun,Finishing,8,22.79,Steinbach
+ORD-1027,C012,2026-04-30,2x4 Lumber,Materials,1,7.36,Brandon
+ORD-1028,C027,2026-02-07,Hard Hat,safety,8,27.9,Portage la Prairie
+ORD-1029,C025,2026-02-19,Work Gloves,Safety,8,14.87,Steinbach
+ORD-1030,C035,2026-06-25,2x4 Lumber,Materials,2,7.38,Brandon
+ORD-1031,C012,2026-07-31,2x4 Lumber,Materials,2,7.79,Portage la Prairie
+ORD-1032,C009,2026-03-09,2x4 Lumber,Materials,6,7.9,Brandon
+ORD-1033,C025,04/15/2026,Caulking Gun,Finishing,5,20.91,Steinbach
+ORD-1034,C012,13-04-2026,Hard Hat,Safety,5,27.59,Winnipeg
+ORD-1035,C004,2026-04-03,Circular Saw,Tools,2,189.95,Winnipeg
+ORD-1036,C014,2026-04-17,Concrete Mix,Materials,3,13.84,Portage la Prairie
+ORD-1037,C003,2026-03-23,Caulking Gun,Finishing,-3,22.72,Brandon
+ORD-1038,C022,2026-07-29,Circular Saw,Tools,4,182.87,Winnipeg
+ORD-1039,C016,2026-06-28,Cordless Drill,Tools,6,137.96,Winnipeg
+ORD-1040,C011,2026-07-18,Concrete Mix,Materials,8,12.38,Steinbach
+ORD-1041,C018,2026-06-06,Safety Glasses,Safety,1,11.01,Brandon
+ORD-1042,C010,2026-07-16,Caulking Gun,Finishing,4,20.57,Winnipeg
+ORD-1043,C016,2026-05-29,Tape Measure,Tools,1,19.26,Portage la Prairie
+ORD-1044,C006,06/15/2026,Interior Paint,Finishing,6,53.71,Winnipeg
+ORD-1045,C026,2026-03-11,Interior Paint,Finishing,2,52.38,Winnipeg
+ORD-1046,C008,2026-06-06,Drywall Sheet,Materials,1,17.56,Portage la Prairie
+ORD-1047,C029,2026-02-20,Work Gloves,Safety,5,15.25,Steinbach
+ORD-1048,C015,2026-03-13,Caulking Gun,Finishing,8,23.16,Brandon
+ORD-1049,C035,2026-04-22,Safety Glasses,Safety,4,10.43,
+ORD-1050,C014,2026-03-02,Caulking Gun,Finishing,8,22.68,Brandon
+ORD-1051,C030,11-08-2026,Tape Measure,Tools,8,19.07,Brandon
+ORD-1052,C034,2026-02-19,Hard Hat,Safety,5,28.96,Steinbach
+ORD-1053,C035,2026-01-09,Drywall Sheet,Materials,5,15.62,Brandon
+ORD-1054,C035,2026-05-02,Safety Glasses,Safety,3,11.86,Steinbach
+ORD-1055,C005,01/31/2026,Safety Glasses,SAFETY,2,11.74,Steinbach
+ORD-1056,C002,2026-02-25,Paint Roller,Finishing,7,12.82,Portage la Prairie
+ORD-1057,C012,2026-01-15,Paint Roller,Finishing,6,13.13,Brandon
+ORD-1058,C024,2026-06-08,Drywall Sheet,Materials,8,16.34,Portage la Prairie
+ORD-1059,C008,2026-01-21,Hard Hat,Safety,4,27.95,Brandon
+ORD-1060,C027,2026-07-09,2x4 Lumber,Materials,3,7.57,Winnipeg
+ORD-1061,C030,2026-06-19,Tape Measure,Tools,1,18.54,Portage la Prairie
+ORD-1062,C006,2026-07-07,Caulking Gun,Finishing,1,21.34,Winnipeg
+ORD-1063,C028,2026-08-18,Drywall Sheet,Materials,1,,Portage la Prairie
+ORD-1064,C012,2026-07-28,Concrete Mix,Materials,2,13.72,Winnipeg
+ORD-1065,C021,2026-05-11,Concrete Mix,Materials,3,13.9,Steinbach
+ORD-1066,C023,04/07/2026,2x4 Lumber,Materials,8,8.14,Winnipeg
+ORD-1067,C003,2026-03-09,Drywall Sheet,Materials,1,16.09,Portage la Prairie
+ORD-1068,C003,09-05-2026,Hard Hat,Safety,6,26.67,Portage la Prairie
+ORD-1069,C032,2026-05-06,Paint Roller,Finishing,2,13.69,Winnipeg
+ORD-1070,C031,2026-07-11,Cordless Drill,tools,2,139.45,Steinbach
+ORD-1071,C011,2026-08-08,Interior Paint,Finishing,2,53.39,Brandon
+ORD-1072,C023,2026-03-13,Tape Measure,Tools,1,19.61,Steinbach
+ORD-1073,C033,2026-08-23,Drywall Sheet,Materials,6,15.27,Portage la Prairie
+ORD-1074,C016,2026-08-06,Safety Glasses,Safety,2,11.47,Brandon
+ORD-1075,C024,2026-04-12,Interior Paint,Finishing,3,52.82,Portage la Prairie
+ORD-1076,C019,2026-05-06,Paint Roller,Finishing,8,12.61,Brandon
+ORD-1077,C013,03/21/2026,Interior Paint,Finishing,4,58.89,Steinbach
+ORD-1078,C021,2026-03-28,Circular Saw,Tools,1,189.3,Steinbach
+ORD-1079,C014,2026-04-22,Concrete Mix,Materials,7,12.21,Steinbach
+ORD-1080,C028,2026-08-11,Safety Glasses,Safety,3,11.15,Portage la Prairie
+ORD-1081,C034,2026-08-19,Cordless Drill, Tools ,1,128.95,Brandon
+ORD-1082,C015,2026-08-06,Paint Roller,Finishing,4,14.41,Winnipeg
+ORD-1083,C007,2026-07-21,Concrete Mix,Materials,1,13.59,Brandon
+ORD-1084,C015,2026-02-18,Interior Paint,Finishing,3,54.13,Winnipeg
+ORD-1085,C007,26-03-2026,Safety Glasses,Safety,6,11.43,Brandon
+ORD-1086,C020,2026-06-14,Paint Roller,Finishing,3,12.44,Brandon
+ORD-1087,C017,2026-07-06,Work Gloves,Safety,2,13.93,Brandon
+ORD-1088,C003,01/20/2026,Hard Hat,Safety,8,26.97,
+ORD-1089,C011,2026-02-12,Tape Measure,Tools,5,18.83,Winnipeg
+ORD-1090,C022,2026-05-06,Tape Measure,Tools,4,19.03,Brandon
+ORD-1091,C034,2026-02-13,Hard Hat,Safety,4,27.74,Winnipeg
+ORD-1092,C028,2026-04-01,Circular Saw,Tools,0,199.31,Steinbach
+ORD-1093,C002,2026-05-08,Concrete Mix,Materials,8,12.61,Portage la Prairie
+ORD-1094,C035,2026-04-25,Paint Roller,Finishing,2,12.95,Brandon
+ORD-1095,C026,2026-06-08,Caulking Gun,Finishing,4,20.34,Portage la Prairie
+ORD-1096,C031,2026-05-09,Hard Hat,Safety,5,28.81,Brandon
+ORD-1097,C002,2026-02-01,Hard Hat,Safety,4,25.48,Portage la Prairie
+ORD-1098,C014,2026-06-10,Safety Glasses,Safety,4,11.69,Steinbach
+ORD-1099,C033,06/04/2026,2x4 Lumber,Materials,6,7.95,Portage la Prairie
+ORD-1100,C031,2026-08-09,Work Gloves,Safety,3,15.87,Steinbach
+ORD-1101,C014,2026-07-25,Safety Glasses,Safety,4,11.85,Portage la Prairie
+ORD-1102,C010,19-07-2026,Cordless Drill,Tools,4,135.46,Brandon
+ORD-1103,C019,2026-03-14,Drywall Sheet,Materials,4,16.62,Portage la Prairie
+ORD-1104,C001,2026-05-24,Cordless Drill,Tools,2,137.37,Brandon
+ORD-1105,C012,2026-06-28,Hard Hat,Safety,4,27.78,Portage la Prairie
+ORD-1106,C013,2026-08-23,Paint Roller,Finishing,7,13.36,Brandon
+ORD-1107,C002,2026-06-01,Hard Hat,Safety,7,25.58,Winnipeg
+ORD-1108,C035,2026-04-04,Circular Saw,Tools,2,179.4,Winnipeg
+ORD-1109,C016,2026-08-18,Caulking Gun,Finishing,1,22.15,Steinbach
+ORD-1110,C027,08/11/2026,Paint Roller,Finishing,8,12.86,Steinbach
+ORD-1012,C003,2026-05-02,Work Gloves,Safety,7,14.67,Brandon
+ORD-1035,C004,2026-04-03,Circular Saw,Tools,2,189.95,Winnipeg
+ORD-1068,C003,09-05-2026,Hard Hat,Safety,6,26.67,Portage la Prairie
+ORD-1090,C022,2026-05-06,Tape Measure,Tools,4,19.03,Brandon
+ORD-1022,C027,06/22/2026,Safety Glasses,Safety,2,999.99,Steinbach
+ORD-1075,C024,2026-04-12,Interior Paint,Finishing,3,52.82,Winnipeg
+ORD-1111,C014,2026/07/15,Tape Measure,Tools,2,18.99,Brandon
+ORD-1112,C029,08/21/2026,Work Gloves, safety ,4,14.75,Steinbach
+ORD-1113,C004,2026-08-27,Interior Paint,Finishing,1,,Winnipeg
+ORD-1114,C018,27-08-2026,Concrete Mix,MATERIALS,5,12.95,
