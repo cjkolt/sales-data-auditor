@@ -1,8 +1,8 @@
 # Sales Data Auditor
 
-A small Python/pandas project for checking a messy sales CSV before calculating revenue.
+A Python/pandas portfolio project for checking a messy sales CSV before calculating revenue.
 
-I started it as a practice exercise. The useful part was learning not to treat every row in a spreadsheet as valid sales data.
+I built this to practice working with imperfect data rather than treating every spreadsheet row as a valid sale. It's a finished exercise using sample data, not a live reporting system.
 
 ## What it does
 
