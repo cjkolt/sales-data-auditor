@@ -1,30 +1,52 @@
 # Sales Data Auditor
 
-A small Python/pandas practice repo. I'm using a sample sales CSV to get more comfortable finding messy data and turning it into something that can actually be analyzed.
+A small Python/pandas project for checking a messy sales CSV before calculating revenue.
 
-It's **not finished**, and I'm keeping that distinction clear.
+I started it as a practice exercise. The useful part was learning not to treat every row in a spreadsheet as valid sales data.
 
-## What's here
+## What it does
 
-- `data/sales.csv`: the practice dataset
-- `src/analyze_sales.py`: an early script that loads the CSV, inspects missing/duplicate rows, and works on inconsistent order dates
+- Standardizes category names and several explicit date formats.
+- Reports missing values, bad quantities or prices, repeated rows, and order IDs with conflicting details.
+- **Excludes** rows that need review instead of guessing what the right value was.
+- Totals accepted sales in integer cents, then writes clean data and basic revenue summaries by category, region, and month.
 
-The current script is exploratory. It still prints the dataframe, repeats some date-conversion work, and hasn't completed the planned validation, revenue summaries, charts, or cleaned-data export.
+The input in `data/sales.csv` is a practice dataset. These are not findings about a real business.
 
-## Run the current script
+## Run it
 
-With Python and pandas installed, from the repository root:
+Requires Python 3.12 or a compatible version.
 
 ```bash
+python -m pip install -r requirements.txt
 python src/analyze_sales.py
 ```
 
-## Next
+Reports appear in `output/`:
 
-1. Add clear checks for invalid quantities, prices, and dates.
-2. Make the cleaning steps reproducible rather than editing columns ad hoc.
-3. Calculate and verify basic sales metrics.
-4. Export cleaned data and a short summary of issues found.
-5. Add a couple of tests using intentionally messy sample rows.
+- `clean_orders.csv`
+- `review_required.csv` (source row number, order ID, reason)
+- `summary.csv`
+- `revenue_by_category.csv`, `revenue_by_region.csv`, `revenue_by_month.csv`
 
-This is a learning exercise, not a published analytics result.
+To choose a different source or output location:
+
+```bash
+python src/analyze_sales.py --input data/sales.csv --output output
+```
+
+Run the tests:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The GitHub Actions workflow runs those tests and checks the script against the included sample data.
+
+## Decisions and limitations
+
+Dates in `MM/DD/YYYY` format are interpreted as **month/day/year**. Dates written `DD-MM-YYYY` are interpreted as **day-month-year**. This assumption needs to be confirmed before using an unfamiliar export.
+
+Repeated identical rows keep the first copy. If the same order ID has conflicting details, **all** versions of that order are held for review. Missing regions and invalid amounts are also excluded from the clean totals. Those are deliberate, conservative choices—not automatic corrections to source records.
+
+These outputs describe the accepted subset, not necessarily the business's true revenue. A real reporting workflow would need reconciliation against invoices or another system of record.
